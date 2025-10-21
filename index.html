@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CraftySticks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="container header-container">
+    <a href="#home" class="logo">
+      <img src="CraftySticksLogo.png" alt="CraftySticks Logo">
+      <span>CraftySticks</span>
+    </a>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="#reviews">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HOME -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Welcome to CraftySticks</h1>
+    <p>"Designed by us, Personalized by you".</p>
+    <a href="#services" class="btn">Explore Stickers</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Mission: To empower creativity and self-expression through high-quality, thoughtfully designed stickers that bring personality and color to everyday life. </p>
+    <p>Vision: To be recognized as a go-to brand for premium stickers and custom design services, known for quality, creativity, and customer satisfaction. </p>
+    <p>Goal: To promote our sticker products online and make it easy for customers to explore, customize, and order their own designs.</p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <p>Explore our sticker collections below.</p>
+
+    <!-- Premade Stickers -->
+    <div class="services-section">
+      <h3>Premade Stickers</h3>
+      <div class="image-row">
+        <a href="#sticker1"><img src="sticker1.png" alt="Sticker 1"></a>
+        <a href="#sticker2"><img src="sticker2.png" alt="Sticker 2"></a>
+      </div>
+    </div>
+
+    <!-- Custom Stickers -->
+    <div class="services-section">
+      <h3>Graffiti / Customized Stickers</h3>
+      <div class="image-row">
+        <a href="#custom1"><img src="customsticker1.png" alt="Custom Sticker 1"></a>
+        <a href="#custom2"><img src="customsticker2.png" alt="Custom Sticker 2"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POP-UP IMAGES -->
+<div id="sticker1" class="modal">
+  <a href="#services" class="close">&times;</a>
+  <img src="sticker1.png" alt="Sticker 1">
+</div>
+
+<div id="sticker2" class="modal">
+  <a href="#services" class="close">&times;</a>
+  <img src="sticker2.png" alt="Sticker 2">
+</div>
+
+<div id="custom1" class="modal">
+  <a href="#services" class="close">&times;</a>
+  <img src="customsticker1.png" alt="Custom Sticker 1">
+</div>
+
+<div id="custom2" class="modal">
+  <a href="#services" class="close">&times;</a>
+  <img src="customsticker2.png" alt="Custom Sticker 2">
+</div>
+
+<!-- PROCESS (FIXED + VIDEO POPUP) -->
+<section id="process" class="process">
+  <div class="container">
+    <h2>Our Process</h2>
+    <p>Here’s how we turn your ideas into amazing stickers!</p>
+
+    <div class="process-steps">
+      <div class="step">
+        <h3>1. Design</h3>
+        <p>We sketch or digitally design your sticker based on your concept or uploaded artwork.</p>
+        <button class="watch-btn" data-video="design.mp4">Watch Video</button>
+      </div>
+
+      <div class="step">
+        <h3>2. Print</h3>
+        <p>Your design is printed on high-quality waterproof vinyl using premium inks.</p>
+        <button class="watch-btn" data-video="printing.mp4">Watch Video</button>
+      </div>
+
+      <div class="step">
+        <h3>3. Cut & Finish</h3>
+        <p>We cut your stickers with precision and add finishing touches to make them stand out.</p>
+        <button class="watch-btn" data-video="cutfinishprocess.mp4">Watch Video</button>
+      </div>
+
+      <div class="step">
+        <h3>4. Deliver</h3>
+        <p>Your sticker packs are packaged with care and shipped right to your door!</p>
+        <button class="watch-btn" data-video="delivery.mp4">Watch Video</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SMALL VIDEO MODAL -->
+<div class="video-modal" id="videoModal">
+  <div class="video-content small">
+    <span class="close-btn">&times;</span>
+    <video id="processVideo" controls></video>
+  </div>
+</div>
+
+<!-- PRICING -->
+<section id="pricing" class="projects">
+  <div class="container">
+    <h2>Sticker Packs & Pricing</h2>
+    <div class="grid">
+      <div class="card">
+        <a href="#price1"><img src="sticker1preview.png" alt="Mini Pack" class="preview-img"></a>
+        <h3>Mini Pack</h3>
+        <p>₱39 — 6 high-quality stickers</p>
+        <a href="contact.html" class="btn">Order Now</a>
+      </div>
+
+      <div class="card">
+        <a href="#price2"><img src="sticker2preview.png" alt="Regular Pack" class="preview-img"></a>
+        <h3>Regular Pack</h3>
+        <p>₱69 — 8 custom or pre-made stickers</p>
+        <a href="contact.html" class="btn">Order Now</a>
+      </div>
+
+      <div class="card">
+        <a href="#price3"><img src="15stickerwithlogo.png" alt="Premium Pack" class="preview-img"></a>
+        <h3>Premium Pack</h3>
+        <p>₱99 — 15 stickers + 1 custom logo design</p>
+        <a href="contact.html" class="btn">Order Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <input type="checkbox" id="faq1">
+      <label class="faq-question" for="faq1">How long does it take to receive my stickers?</label>
+      <p class="faq-answer">Orders usually take 3–5 business days to produce and ship.</p>
+    </div>
+
+    <div class="faq-item">
+      <input type="checkbox" id="faq2">
+      <label class="faq-question" for="faq2">Can I request a custom design?</label>
+      <p class="faq-answer">Absolutely! Send us your ideas and we’ll create them for you.</p>
+    </div>
+
+    <div class="faq-item">
+      <input type="checkbox" id="faq3">
+      <label class="faq-question" for="faq3">What materials do you use for stickers?</label>
+      <p class="faq-answer">We use premium waterproof and fade-resistant vinyl for long-lasting quality.</p>
+    </div>
+
+    <div class="faq-item">
+      <input type="checkbox" id="faq4">
+      <label class="faq-question" for="faq4">Do you accept bulk or business orders?</label>
+      <p class="faq-answer">Yes! We offer special pricing for bulk and business orders. Just contact us for details.</p>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="reviews">
+  <div class="container">
+    <h2>What Our Customers Say</h2>
+    <div class="review-slider">
+      <div class="review active">“CraftySticks made my custom logo sticker perfectly!” — Mica</div>
+      <div class="review">“Their premade designs are so cute and high-quality!” — Carlo</div>
+      <div class="review">“Fast service and amazing quality. Highly recommended!” — Bea</div>
+    </div>
+    <div class="slider-buttons">
+      <button class="prev">❮</button>
+      <button class="next">❯</button>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Get in Touch</h2>
+  <p>Ready to start your sticker journey with us? Message us for custom orders or inquiries!</p>
+  <a href="contact.html" class="btn">Contact CraftySticks</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>© 2025 CraftySticks. Designed by us, Personalized by you.</p>
+  </div>
+</footer>
+
+<script>
+// VIDEO POPUP FUNCTIONALITY
+document.querySelectorAll('.watch-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const modal = document.getElementById('videoModal');
+    const video = document.getElementById('processVideo');
+    video.src = btn.dataset.video;
+    modal.style.display = 'flex';
+    video.play();
+  });
+});
+
+document.querySelector('.close-btn').addEventListener('click', () => {
+  const modal = document.getElementById('videoModal');
+  const video = document.getElementById('processVideo');
+  modal.style.display = 'none';
+  video.pause();
+  video.currentTime = 0;
+});
+
+window.addEventListener('click', e => {
+  const modal = document.getElementById('videoModal');
+  const video = document.getElementById('processVideo');
+  if (e.target === modal) {
+    modal.style.display = 'none';
+    video.pause();
+    video.currentTime = 0;
+  }
+});
+</script>
+
+</body>
+</html>
